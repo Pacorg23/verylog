@@ -1,0 +1,30 @@
+$date
+	Sat Dec 31 19:10:10 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module orByte_tb $end
+$var wire 8 ! C [7:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$scope module A0 $end
+$var wire 8 $ A [7:0] $end
+$var wire 8 % B [7:0] $end
+$var wire 8 & C [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111 &
+b10101010 %
+b1010101 $
+b10101010 #
+b1010101 "
+b11111111 !
+$end
+#2

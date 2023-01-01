@@ -1,0 +1,100 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001488756d1f0 .scope module, "byte_or_tb" "byte_or_tb" 2 3;
+ .timescale -9 -9;
+v000001488747b400_0 .var "B_in1", 7 0;
+v000001488747b180_0 .var "B_in2", 7 0;
+v0000014887479e20_0 .net "B_out1", 7 0, L_000001488747af00;  1 drivers
+v0000014887479f60_0 .net "B_out2", 7 0, L_000001488747b900;  1 drivers
+S_000001488756d380 .scope module, "U0" "byte_or" 2 6, 3 1 0, S_000001488756d1f0;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 8 "B_in1";
+    .port_info 1 /INPUT 8 "B_in2";
+    .port_info 2 /OUTPUT 8 "B_out1";
+    .port_info 3 /OUTPUT 8 "B_out2";
+L_0000014887425060 .functor OR 1, L_000001488747a460, L_000001488747aaa0, C4<0>, C4<0>;
+L_000001488756d620 .functor OR 1, L_000001488747ab40, L_000001488747a500, C4<0>, C4<0>;
+L_00000148875682e0 .functor OR 1, L_000001488747a640, L_0000014887479ec0, C4<0>, C4<0>;
+L_000001488747beb0 .functor OR 1, L_000001488747a000, L_000001488747ad20, C4<0>, C4<0>;
+L_000001488747bf20 .functor OR 1, L_000001488747b720, L_000001488747abe0, C4<0>, C4<0>;
+L_000001488747bf90 .functor OR 1, L_000001488747a780, L_000001488747a1e0, C4<0>, C4<0>;
+L_000001488747b890 .functor OR 1, L_000001488747a820, L_000001488747ae60, C4<0>, C4<0>;
+L_000001488747bd60 .functor OR 1, L_000001488747b040, L_000001488747b4a0, C4<0>, C4<0>;
+L_000001488747b900 .functor OR 8, v000001488747b400_0, v000001488747b180_0, C4<00000000>, C4<00000000>;
+v0000014887415260_0 .net "B_in1", 7 0, v000001488747b400_0;  1 drivers
+v00000148874158a0_0 .net "B_in2", 7 0, v000001488747b180_0;  1 drivers
+v00000148874154e0_0 .net "B_out1", 7 0, L_000001488747af00;  alias, 1 drivers
+v0000014887415300_0 .net "B_out2", 7 0, L_000001488747b900;  alias, 1 drivers
+v00000148874153a0_0 .net *"_ivl_11", 0 0, L_000001488747ab40;  1 drivers
+v0000014887415760_0 .net *"_ivl_13", 0 0, L_000001488747a500;  1 drivers
+v000001488747adc0_0 .net *"_ivl_15", 0 0, L_000001488756d620;  1 drivers
+v000001488747a8c0_0 .net *"_ivl_19", 0 0, L_000001488747a640;  1 drivers
+v00000148874799c0_0 .net *"_ivl_21", 0 0, L_0000014887479ec0;  1 drivers
+v0000014887479920_0 .net *"_ivl_23", 0 0, L_00000148875682e0;  1 drivers
+v000001488747afa0_0 .net *"_ivl_27", 0 0, L_000001488747a000;  1 drivers
+v000001488747b220_0 .net *"_ivl_29", 0 0, L_000001488747ad20;  1 drivers
+v000001488747ac80_0 .net *"_ivl_3", 0 0, L_000001488747a460;  1 drivers
+v0000014887479d80_0 .net *"_ivl_31", 0 0, L_000001488747beb0;  1 drivers
+v000001488747a280_0 .net *"_ivl_35", 0 0, L_000001488747b720;  1 drivers
+v000001488747a6e0_0 .net *"_ivl_37", 0 0, L_000001488747abe0;  1 drivers
+v000001488747a320_0 .net *"_ivl_39", 0 0, L_000001488747bf20;  1 drivers
+v0000014887479a60_0 .net *"_ivl_43", 0 0, L_000001488747a780;  1 drivers
+v000001488747a960_0 .net *"_ivl_45", 0 0, L_000001488747a1e0;  1 drivers
+v0000014887479b00_0 .net *"_ivl_47", 0 0, L_000001488747bf90;  1 drivers
+v000001488747a3c0_0 .net *"_ivl_5", 0 0, L_000001488747aaa0;  1 drivers
+v0000014887479c40_0 .net *"_ivl_51", 0 0, L_000001488747a820;  1 drivers
+v000001488747aa00_0 .net *"_ivl_53", 0 0, L_000001488747ae60;  1 drivers
+v000001488747a140_0 .net *"_ivl_55", 0 0, L_000001488747b890;  1 drivers
+v0000014887479ba0_0 .net *"_ivl_60", 0 0, L_000001488747b040;  1 drivers
+v000001488747a5a0_0 .net *"_ivl_62", 0 0, L_000001488747b4a0;  1 drivers
+v000001488747a0a0_0 .net *"_ivl_64", 0 0, L_000001488747bd60;  1 drivers
+v0000014887479ce0_0 .net *"_ivl_7", 0 0, L_0000014887425060;  1 drivers
+L_000001488747a460 .part v000001488747b400_0, 0, 1;
+L_000001488747aaa0 .part v000001488747b180_0, 0, 1;
+L_000001488747ab40 .part v000001488747b400_0, 1, 1;
+L_000001488747a500 .part v000001488747b180_0, 1, 1;
+L_000001488747a640 .part v000001488747b400_0, 2, 1;
+L_0000014887479ec0 .part v000001488747b180_0, 2, 1;
+L_000001488747a000 .part v000001488747b400_0, 3, 1;
+L_000001488747ad20 .part v000001488747b180_0, 3, 1;
+L_000001488747b720 .part v000001488747b400_0, 4, 1;
+L_000001488747abe0 .part v000001488747b180_0, 4, 1;
+L_000001488747a780 .part v000001488747b400_0, 5, 1;
+L_000001488747a1e0 .part v000001488747b180_0, 5, 1;
+L_000001488747a820 .part v000001488747b400_0, 6, 1;
+L_000001488747ae60 .part v000001488747b180_0, 6, 1;
+LS_000001488747af00_0_0 .concat8 [ 1 1 1 1], L_0000014887425060, L_000001488756d620, L_00000148875682e0, L_000001488747beb0;
+LS_000001488747af00_0_4 .concat8 [ 1 1 1 1], L_000001488747bf20, L_000001488747bf90, L_000001488747b890, L_000001488747bd60;
+L_000001488747af00 .concat8 [ 4 4 0 0], LS_000001488747af00_0_0, LS_000001488747af00_0_4;
+L_000001488747b040 .part v000001488747b400_0, 7, 1;
+L_000001488747b4a0 .part v000001488747b180_0, 7, 1;
+    .scope S_000001488756d1f0;
+T_0 ;
+    %vpi_call 2 8 "$dumpfile", "OrByte.vcd" {0 0 0};
+    %vpi_call 2 9 "$dumpvars", 32'sb00000000000000000000000000000000, S_000001488756d1f0 {0 0 0};
+    %pushi/vec4 0, 0, 8;
+    %store/vec4 v000001488747b180_0, 0, 8;
+    %pushi/vec4 84, 0, 8;
+    %store/vec4 v000001488747b400_0, 0, 8;
+    %delay 10, 0;
+    %pushi/vec4 171, 0, 8;
+    %store/vec4 v000001488747b180_0, 0, 8;
+    %delay 10, 0;
+    %pushi/vec4 171, 0, 8;
+    %store/vec4 v000001488747b400_0, 0, 8;
+    %delay 10, 0;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    ".\byte_or_tb.v";
+    "./byte_or.v";

@@ -1,0 +1,37 @@
+$date
+	Sat Dec 31 16:43:19 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module switch_tb $end
+$var wire 8 ! B [7:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 1 # enable $end
+$scope module A0 $end
+$var wire 8 $ A [7:0] $end
+$var wire 1 # enable $end
+$var reg 8 % B [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz %
+b1010 $
+0#
+b1010 "
+bz !
+$end
+#1
+b1010 !
+b1010 %
+1#
+#2
+bz !
+bz %
+0#
+#3

@@ -1,0 +1,259 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul
+T_opt
+!s110 1668719956
+V`_XUM[8I^Q7FLa90TSz:a3
+04 3 4 work ALU fast 0
+=1-9828a61b10c9-6376a553-24b-2704
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1669243241
+V?Wj;cOHi_ng3g7<B9leh?1
+04 6 4 work ALU_tb fast 0
+=1-9828a61b10c9-637ea168-22c-3634
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1669243497
+VZiDJk5^E9k6[IDF7lZEzP1
+04 10 4 work byteSub_tb fast 0
+=1-9828a61b10c9-637ea268-3bb-18d8
+R1
+R2
+n@_opt2
+R3
+vALU
+Z4 !s110 1669243221
+!i10b 1
+!s100 9h8z:_<zF>T7J_fJ75>?33
+If`e3Y1Kdl;XGzhQEPQ5PZ3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1669239886
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU.v
+L0 2
+Z6 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1669243221.000000
+!s107 C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vALU_tb
+Z9 !s110 1669243222
+!i10b 1
+!s100 5oV4fI:=GjY?BePcCX:6o1
+I8fe;P?6>5RGLFX_U5K9PD3
+R5
+R0
+w1668729105
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU_tb.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z10 !s108 1669243222.000000
+!s107 C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU_tb.v|
+!i113 0
+R8
+R2
+n@a@l@u_tb
+vbyteAdder
+R4
+!i10b 1
+!s100 [bjgIcHhPZD:GXYM:Dfgg1
+IMmnF30`UOh4FXYYI6b[Ez2
+R5
+R0
+w1668451220
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteAdder.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteAdder.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteAdder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteAdder.v|
+!i113 0
+R8
+R2
+nbyte@adder
+vbyteSub
+R9
+!i10b 1
+!s100 A>Jm?KgeXVHECe@2N7YBY3
+IUiLW^96GjYK7fPAkkl]:O2
+R5
+R0
+w1668450456
+8byteSub.v
+FbyteSub.v
+L0 2
+R6
+r1
+!s85 0
+31
+R10
+Z11 !s107 byteSub.v|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteSub_tb.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteSub_tb.v|
+!i113 0
+R8
+R2
+nbyte@sub
+vbyteSub_tb
+R9
+!i10b 1
+!s100 e;KEgJ0QK5Z3bP2[z_<_I3
+IB8fFR06SA<7z7<miN^zNW1
+R5
+R0
+w1668034758
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteSub_tb.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteSub_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R8
+R2
+nbyte@sub_tb
+vfullAdder
+R9
+!i10b 1
+!s100 mWfLmQ0`za7bGcAeDW36U3
+I:^0=dFmI0YfFodg[a0Nl51
+R5
+R0
+w1661740078
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/fullAdder.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/fullAdder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/fullAdder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/fullAdder.v|
+!i113 0
+R8
+R2
+nfull@adder
+vMultiplicadorByte
+R9
+!i10b 1
+!s100 L3Fd4h@@V>2M=POVBVTE@2
+IZ4X=CK?C]7;RTcQb:<f[61
+R5
+R0
+w1668186477
+8MultiplicadorByte.v
+FMultiplicadorByte.v
+L0 2
+R6
+r1
+!s85 0
+31
+R10
+Z13 !s107 MultiplicadorByte.v|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte_tb.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte_tb.v|
+!i113 0
+R8
+R2
+n@multiplicador@byte
+vMultiplicadorByte_tb
+R9
+!i10b 1
+!s100 hAbNA;[6jV:A4Tj<0Gez;2
+I4UD7R]o;P:5[h6N:1h45^1
+R5
+R0
+w1668182036
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte_tb.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R10
+R13
+R14
+!i113 0
+R8
+R2
+n@multiplicador@byte_tb
+vrestadorCompleto
+R9
+!i10b 1
+!s100 D8MMXmV@QX6HgK<9?;SnF1
+IE7lCNIeJI0PSgC25[TQ901
+R5
+R0
+w1668450797
+8restadorCompleto.v
+FrestadorCompleto.v
+L0 1
+R6
+r1
+!s85 0
+31
+R10
+Z15 !s107 restadorCompleto.v|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto_tb.v|
+!i113 0
+R8
+R2
+nrestador@completo
+vrestadorCompleto_tb
+R9
+!i10b 1
+!s100 @^JD?FlJ70FzbmSL8YzUG0
+I_8e[c7zb:kdhN=9TiV26k1
+R5
+R0
+w1668034325
+8C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto_tb.v
+FC:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto_tb.v
+L0 4
+R6
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 0
+R8
+R2
+nrestador@completo_tb

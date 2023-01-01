@@ -1,0 +1,65 @@
+$date
+	Sat Dec 31 16:05:12 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module decodificador_tb $end
+$var wire 8 ! sal [7:0] $end
+$var reg 1 " ena $end
+$var reg 3 # ent [2:0] $end
+$scope module A0 $end
+$var wire 1 " ena $end
+$var wire 3 $ ent [2:0] $end
+$var reg 8 % sal [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz %
+b0 $
+b0 #
+0"
+bz !
+$end
+#1
+b1 !
+b1 %
+1"
+#2
+b10 !
+b10 %
+b1 #
+b1 $
+#3
+b100 !
+b100 %
+b10 #
+b10 $
+#4
+b1000 !
+b1000 %
+b11 #
+b11 $
+#5
+b10000 !
+b10000 %
+b100 #
+b100 $
+#6
+bz !
+bz %
+b101 #
+b101 $
+0"
+#7
+b110 #
+b110 $
+#8
+b111 #
+b111 $
+#9

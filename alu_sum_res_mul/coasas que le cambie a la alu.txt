@@ -1,0 +1,6 @@
+`include "restadorCompleto.v"
+`include "fullAdder.v"
+`include "byteAdder.v"
+`include "MultiplicadorByte.v"
+`include "ByteSub.v"
+`include "ALU.v"

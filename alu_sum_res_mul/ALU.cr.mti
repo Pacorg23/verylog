@@ -1,0 +1,74 @@
+{C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module restadorCompleto
+
+Top level modules:
+	restadorCompleto
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/fullAdder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/fullAdder.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module fullAdder
+
+Top level modules:
+	fullAdder
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteSub_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteSub_tb.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module byteSub
+-- Compiling module byteSub_tb
+
+Top level modules:
+	byteSub_tb
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU_tb.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/restadorCompleto_tb.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module restadorCompleto
+-- Compiling module restadorCompleto_tb
+
+Top level modules:
+	restadorCompleto_tb
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteAdder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/byteAdder.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module byteAdder
+
+Top level modules:
+	byteAdder
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MultiplicadorByte
+
+Top level modules:
+	MultiplicadorByte
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/MultiplicadorByte_tb.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module MultiplicadorByte
+-- Compiling module MultiplicadorByte_tb
+
+Top level modules:
+	MultiplicadorByte_tb
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ByteSub.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ByteSub.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module byteSub
+
+Top level modules:
+	byteSub
+
+} {} {}} {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/okey-/OneDrive/Escritorio/proximo semestre/Arquitectura de computadoras/verylog/alu_sum_res_mul/ALU.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

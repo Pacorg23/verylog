@@ -1,0 +1,79 @@
+$date
+	Wed Nov 09 16:52:17 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module restadorCompleto_tb $end
+$var wire 1 ! e $end
+$var wire 1 " d $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c $end
+$scope module uut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " d $end
+$var wire 1 % inBorr $end
+$var wire 1 ! outBorr $end
+$var wire 1 & reg1 $end
+$var wire 1 ' reg2 $end
+$var wire 1 ( reg3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1"
+1&
+1#
+#40
+1!
+1'
+1$
+0#
+#60
+0!
+0"
+0'
+0&
+1#
+#80
+1!
+1(
+1"
+1%
+0$
+0#
+#100
+0!
+0(
+0"
+1&
+1#
+#120
+1!
+1'
+1$
+0#
+#140
+1(
+1!
+1"
+0'
+0&
+1#
+#160

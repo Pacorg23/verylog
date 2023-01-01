@@ -1,0 +1,48 @@
+$date
+	Sat Oct 22 17:48:14 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module byte_or_tb $end
+$var wire 8 ! B_out2 [7:0] $end
+$var wire 8 " B_out1 [7:0] $end
+$var reg 8 # B_in1 [7:0] $end
+$var reg 8 $ B_in2 [7:0] $end
+$scope module U0 $end
+$var wire 8 % B_in1 [7:0] $end
+$var wire 8 & B_in2 [7:0] $end
+$var wire 8 ' B_out2 [7:0] $end
+$var wire 8 ( B_out1 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010100 (
+b1010100 '
+b0 &
+b1010100 %
+b0 $
+b1010100 #
+b1010100 "
+b1010100 !
+$end
+#10
+b11111111 "
+b11111111 (
+b11111111 !
+b11111111 '
+b10101011 $
+b10101011 &
+#20
+b10101011 "
+b10101011 (
+b10101011 !
+b10101011 '
+b10101011 #
+b10101011 %
+#30

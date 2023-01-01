@@ -1,0 +1,95 @@
+$date
+	Wed Nov 09 16:38:48 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ByteAdderAnt_tb $end
+$var wire 1 ! o $end
+$var wire 8 " O [7:0] $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 1 % c $end
+$scope module U0 $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 1 % c $end
+$var wire 1 ! o $end
+$var wire 8 ( p [7:0] $end
+$var wire 8 ) P [7:0] $end
+$var wire 8 * O [7:0] $end
+$var wire 8 + G [7:0] $end
+$var wire 8 , E [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 ,
+b1 +
+b10 *
+b0 )
+b0 (
+b1 '
+b1 &
+0%
+b1 $
+b1 #
+b10 "
+0!
+$end
+#1
+b110 ,
+b10 (
+b100 "
+b100 *
+b10 )
+b11 #
+b11 &
+#2
+b1110 ,
+b110 (
+b1000 "
+b1000 *
+b110 )
+b111 #
+b111 &
+#3
+b11110 ,
+b1110 (
+b10000 "
+b10000 *
+b1110 )
+b1111 #
+b1111 &
+#4
+b110 ,
+b10 (
+b10101100 "
+b10101100 *
+b10101010 )
+b10101011 #
+b10101011 &
+#5
+b0 (
+b10101011 "
+b10101011 *
+b0 ,
+b10101011 )
+b0 +
+b10101010 #
+b10101010 &
+#6
+1!
+b11111110 (
+b11111110 ,
+b0 "
+b0 *
+b1 +
+b11111110 )
+b11111111 #
+b11111111 &
+#7

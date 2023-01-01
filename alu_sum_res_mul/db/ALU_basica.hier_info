@@ -1,0 +1,1271 @@
+|ALU
+A[0] => A[0].IN3
+A[1] => A[1].IN3
+A[2] => A[2].IN3
+A[3] => A[3].IN3
+A[4] => A[4].IN3
+A[5] => A[5].IN3
+A[6] => A[6].IN3
+A[7] => A[7].IN3
+B[0] => B[0].IN3
+B[1] => B[1].IN3
+B[2] => B[2].IN3
+B[3] => B[3].IN3
+B[4] => B[4].IN3
+B[5] => B[5].IN3
+B[6] => B[6].IN3
+B[7] => B[7].IN3
+c => c.IN2
+ALU_out[0] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[1] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[2] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[3] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[4] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[5] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[6] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[7] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[8] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[9] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[10] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[11] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[12] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[13] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[14] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+ALU_out[15] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => Mux0.IN4
+sel[0] => Mux1.IN4
+sel[0] => Mux2.IN4
+sel[0] => Mux3.IN4
+sel[0] => Mux4.IN4
+sel[0] => Mux5.IN4
+sel[0] => Mux6.IN4
+sel[0] => Mux7.IN4
+sel[0] => Mux8.IN2
+sel[0] => Mux9.IN2
+sel[0] => Mux10.IN2
+sel[0] => Mux11.IN2
+sel[0] => Mux12.IN2
+sel[0] => Mux13.IN2
+sel[0] => Mux14.IN2
+sel[0] => Mux15.IN2
+sel[0] => Mux16.IN3
+sel[1] => Mux0.IN3
+sel[1] => Mux1.IN3
+sel[1] => Mux2.IN3
+sel[1] => Mux3.IN3
+sel[1] => Mux4.IN3
+sel[1] => Mux5.IN3
+sel[1] => Mux6.IN3
+sel[1] => Mux7.IN3
+sel[1] => Mux8.IN1
+sel[1] => Mux9.IN1
+sel[1] => Mux10.IN1
+sel[1] => Mux11.IN1
+sel[1] => Mux12.IN1
+sel[1] => Mux13.IN1
+sel[1] => Mux14.IN1
+sel[1] => Mux15.IN1
+sel[1] => Mux16.IN2
+flag <= Mux16.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|byteAdder:F0|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteAdder:F0|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= restadorCompleto:U0.d
+O[1] <= restadorCompleto:U1.d
+O[2] <= restadorCompleto:U2.d
+O[3] <= restadorCompleto:U3.d
+O[4] <= restadorCompleto:U4.d
+O[5] <= restadorCompleto:U5.d
+O[6] <= restadorCompleto:U6.d
+O[7] <= restadorCompleto:U7.d
+o <= restadorCompleto:U7.outBorr
+
+
+|ALU|byteSub:F1|restadorCompleto:U0
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U1
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U2
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U3
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U4
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U5
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U6
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|byteSub:F1|restadorCompleto:U7
+a => wire1.IN0
+a => wire2.IN0
+b => wire1.IN1
+b => wire2.IN1
+inBorr => wire3.IN1
+inBorr => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+outBorr <= outBorr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2
+A[0] => E0.IN0
+A[0] => E1.IN0
+A[0] => E2.IN0
+A[0] => E3.IN0
+A[0] => E4.IN0
+A[0] => E5.IN0
+A[0] => E6.IN0
+A[0] => E7.IN0
+A[1] => E0.IN0
+A[1] => E1.IN0
+A[1] => E2.IN0
+A[1] => E3.IN0
+A[1] => E4.IN0
+A[1] => E5.IN0
+A[1] => E6.IN0
+A[1] => E7.IN0
+A[2] => E0.IN0
+A[2] => E1.IN0
+A[2] => E2.IN0
+A[2] => E3.IN0
+A[2] => E4.IN0
+A[2] => E5.IN0
+A[2] => E6.IN0
+A[2] => E7.IN0
+A[3] => E0.IN0
+A[3] => E1.IN0
+A[3] => E2.IN0
+A[3] => E3.IN0
+A[3] => E4.IN0
+A[3] => E5.IN0
+A[3] => E6.IN0
+A[3] => E7.IN0
+A[4] => E0.IN0
+A[4] => E1.IN0
+A[4] => E2.IN0
+A[4] => E3.IN0
+A[4] => E4.IN0
+A[4] => E5.IN0
+A[4] => E6.IN0
+A[4] => E7.IN0
+A[5] => E0.IN0
+A[5] => E1.IN0
+A[5] => E2.IN0
+A[5] => E3.IN0
+A[5] => E4.IN0
+A[5] => E5.IN0
+A[5] => E6.IN0
+A[5] => E7.IN0
+A[6] => E0.IN0
+A[6] => E1.IN0
+A[6] => E2.IN0
+A[6] => E3.IN0
+A[6] => E4.IN0
+A[6] => E5.IN0
+A[6] => E6.IN0
+A[6] => E7.IN0
+A[7] => E0.IN0
+A[7] => E1.IN0
+A[7] => E2.IN0
+A[7] => E3.IN0
+A[7] => E4.IN0
+A[7] => E5.IN0
+A[7] => E6.IN0
+A[7] => E7.IN0
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[0] => E0.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[1] => E1.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[2] => E2.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[3] => E3.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[4] => E4.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[5] => E5.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[6] => E6.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+B[7] => E7.IN1
+O[0] <= E0.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= byteAdder:Adder0.port3
+O[2] <= byteAdder:Adder1.port3
+O[3] <= byteAdder:Adder2.port3
+O[4] <= byteAdder:Adder3.port3
+O[5] <= byteAdder:Adder4.port3
+O[6] <= byteAdder:Adder5.port3
+O[7] <= byteAdder:Adder6.port3
+O[8] <= byteAdder:Adder6.port3
+O[9] <= byteAdder:Adder6.port3
+O[10] <= byteAdder:Adder6.port3
+O[11] <= byteAdder:Adder6.port3
+O[12] <= byteAdder:Adder6.port3
+O[13] <= byteAdder:Adder6.port3
+O[14] <= byteAdder:Adder6.port3
+O[15] <= byteAdder:Adder6.port4
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder0|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder1|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder2|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder3|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder4|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder5|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+c => c.IN1
+O[0] <= fullAdder:U0.d
+O[1] <= fullAdder:U1.d
+O[2] <= fullAdder:U2.d
+O[3] <= fullAdder:U3.d
+O[4] <= fullAdder:U4.d
+O[5] <= fullAdder:U5.d
+O[6] <= fullAdder:U6.d
+O[7] <= fullAdder:U7.d
+o <= fullAdder:U7.e
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U0
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U1
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U2
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U3
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U4
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U5
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U6
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MultiplicadorByte:F2|byteAdder:Adder6|fullAdder:U7
+a => reg1.IN0
+a => reg2.IN0
+b => reg1.IN1
+b => reg2.IN1
+c => reg3.IN1
+c => d.IN1
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at ByteSub.v(6): object "O" differs only in case from object "o" in the same scope
+Info (10281): Verilog HDL Declaration information at byteAdder.v(6): object "O" differs only in case from object "o" in the same scope
